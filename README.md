@@ -1,7 +1,11 @@
-# 42. Year 42/21. CH
+# 42. Year 42/2. CH : WITHOUT ANY GUARANTEE
+
+## Tested : C00, C01 & C02
+## Todo : C03......
 
 A tool for quickly test solutions for the C piscine exercises.
 Based on https://github.com/mirror12k/42us-stupidity.git 
+
 
 ## Usage
  
