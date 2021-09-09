@@ -1,4 +1,16 @@
 ex00
+ft_putchar(char c)
+main_basic ====
+int main ()
+{
+	ft_putchar('d');
+}
+====
+check_basic -e ====
+$expected = 'd';
+====
+
+ex01
 ft_print_alphabet
 main ====
 int main()
@@ -12,7 +24,7 @@ $expected = join '', 'a' .. 'z';
 
 
 
-ex01
+ex02
 ft_print_reverse_alphabet
 main ====
 int main()
@@ -26,7 +38,7 @@ $expected = join '', reverse 'a' .. 'z';
 
 
 
-ex02
+ex03
 ft_print_numbers
 main ====
 int main()
@@ -40,7 +52,7 @@ $expected = join '', '0' .. '9';
 
 
 
-ex03
+ex04
 ft_is_negative(int n)
 main_basic ====
 int main()
@@ -65,7 +77,7 @@ $expected = 'P';
 
 
 
-ex04
+ex05
 ft_print_comb
 main ====
 int main()
@@ -100,7 +112,7 @@ $expected = "$expected$expected";
 
 
 
-ex05
+ex06
 ft_print_comb2
 main ====
 int main ()
@@ -139,7 +151,7 @@ $expected = "$expected$expected";
 
 
 
-ex06
+ex07
 ft_putnbr(int nb)
 main_basic ====
 int main ()
@@ -189,7 +201,7 @@ $expected = -2147483648;
 
 
 
-ex07
+ex08
 ft_print_combn(int n)
 main_comb1 ====
 int main ()

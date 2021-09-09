@@ -182,7 +182,24 @@ check_empty -e ====
 $expected = '';
 ====
 
+ex08
+ft_sort_int_tab(int *tab, int size)
+main_basic ====
+int main()
+{
+	int test1[] = {1,5,4,2,3};
+	int size = 5;
+	ft_sort_int_tab(test1, size);
+	
+	for (int i = 0; i < size; i++)
+		printf("%d,", test1[i]);
+}
+====
+check_basic -e ====
+$expected = join '', map "$_,", 1 .. 5;
+====
 
+/*
 ex08
 int ft_atoi(char *str)
 main_basic ====
@@ -204,21 +221,6 @@ int main()
 check_big -e ====
 $expected = '2147483647,-2147483648';
 ====
+*/
 
 
-ex09
-ft_sort_integer_table(int *tab, int size)
-main_basic ====
-int main()
-{
-	int test1[] = {1,5,4,2,3};
-	int size = 5;
-	ft_sort_integer_table(test1, size);
-	
-	for (int i = 0; i < size; i++)
-		printf("%d,", test1[i]);
-}
-====
-check_basic -e ====
-$expected = join '', map "$_,", 1 .. 5;
-====

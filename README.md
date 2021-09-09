@@ -19,11 +19,11 @@ A tool for quickly test solutions for the piscine exercises.
 ## Example workflow
 
 ```
-$ git clone https://github.com/mirror12k/42us-stupidity.git stupidMoulinette
+$ git clone https://github.com/mirror12k/42us-stupidity.git Moulinette
 ...
-$ cd stupidMoulinette
-$ cp ~/Desktop/day03 day03
-$ ./spawn.pl day03 config_d03.pl
+$ cd Moulinette
+$ cp ~/Desktop/c01 c01
+$ ./spawn.pl c01 config_c01.pl
 ...
 $ ./tools/build.sh
 ...
